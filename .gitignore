@@ -1,0 +1,26 @@
+# dependencies & build output
+node_modules
+dist
+coverage
+*.tsbuildinfo
+
+# env files
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# Terraform / CDK (for later AWS infra work)
+.terraform
+*.tfstate
+*.tfstate.*
+cdk.out
